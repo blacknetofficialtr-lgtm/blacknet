@@ -36,7 +36,7 @@ from warningnet.services.database import APP_DIR, Database
 class MainWindow(QMainWindow):
     def __init__(self) -> None:
         super().__init__()
-        self.setWindowTitle("WarningNET 1.3.26.FAA")
+        self.setWindowTitle("BlackEngine Technology A.Ş.")
         self.resize(1200, 750)
 
         self.db = Database()

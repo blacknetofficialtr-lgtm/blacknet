@@ -2,7 +2,7 @@
 setlocal
 
 python -m pip install -r requirements.txt
-pyinstaller --noconfirm --windowed --name WarningNET --onefile -m warningnet
+pyinstaller --noconfirm --windowed --name BlackEngine --onefile -m warningnet
 
-echo Build complete: dist\WarningNET.exe
+echo Build complete: dist\BlackEngine.exe
 endlocal
